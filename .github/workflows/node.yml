@@ -13,6 +13,5 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '16'
-      - run: npm install cross-env
-      - run: npm install --production=false
+      - run: npm run install-all --production=false
       - run: npm run build --prefix client
