@@ -1,0 +1,10 @@
+.git
+
+*/node_modules
+
+server/public
+
+Dockerfile
+.dockerignore
+
+.idea
